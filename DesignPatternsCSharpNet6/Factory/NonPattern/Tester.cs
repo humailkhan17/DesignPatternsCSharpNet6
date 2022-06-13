@@ -8,7 +8,7 @@ public class Tester
     {
         Monster cloudDragon =
             new Monster("Cloud Dragon", 2, 1, 1);
-        Monster forestMonster =
+        Monster forestDragon =
             new Monster("Forest Dragon", 1, 2, 1);
         Monster seaDragon =
             new Monster("Sea Dragon", 1, 1, 2);

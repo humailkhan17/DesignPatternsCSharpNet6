@@ -1,4 +1,4 @@
-﻿using DesignPatternsCSharpNet6.Builder.PatternVersion;
+﻿using DesignPatternsCSharpNet6.Builder.Pattern;
 
 namespace Test.DesignPatternsCSharpNet6.BuilderPattern.PatternVersion;
 

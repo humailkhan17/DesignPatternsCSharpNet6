@@ -1,4 +1,4 @@
-﻿using DesignPatternsCSharpNet6.Strategy.PatternVersion;
+﻿using DesignPatternsCSharpNet6.Strategy.Pattern;
 
 namespace Test.DesignPatternsCSharpNet6.StrategyPattern.PatternVersion;
 

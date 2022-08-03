@@ -1,4 +1,4 @@
-﻿using DesignPatternsCSharpNet6.Strategy.NonPatternVersion_SingleFunction;
+﻿using DesignPatternsCSharpNet6.Strategy.NonPattern_SingleFunction;
 
 namespace Test.DesignPatternsCSharpNet6.StrategyPattern.NonPatternVersion_SingleFunction;
 

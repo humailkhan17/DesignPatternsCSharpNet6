@@ -1,4 +1,4 @@
-﻿using DesignPatternsCSharpNet6.Strategy.NonPatternVersion_MultipleFunctions;
+﻿using DesignPatternsCSharpNet6.Strategy.NonPattern_MultipleFunctions;
 
 namespace Test.DesignPatternsCSharpNet6.StrategyPattern.NonPatternVersion_MultipleFunctions;
 

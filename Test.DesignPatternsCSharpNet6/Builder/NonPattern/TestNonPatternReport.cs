@@ -1,6 +1,6 @@
 ﻿using DesignPatternsCSharpNet6.Builder.NonPattern;
 
-namespace Test.DesignPatternsCSharpNet6.BuilderPattern.NonPatternVersion;
+namespace Test.DesignPatternsCSharpNet6.Builder.NonPattern;
 
 public class TestNonPatternReport
 {

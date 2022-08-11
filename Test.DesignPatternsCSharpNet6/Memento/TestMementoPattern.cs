@@ -1,6 +1,6 @@
 ﻿using DesignPatternsCSharpNet6.Memento;
 
-namespace Test.DesignPatternsCSharpNet6.MementoPattern;
+namespace Test.DesignPatternsCSharpNet6.Memento;
 
 public class TestMementoPattern
 {

@@ -1,6 +1,6 @@
 ﻿using DesignPatternsCSharpNet6.Strategy.NonPattern_MultipleFunctions;
 
-namespace Test.DesignPatternsCSharpNet6.StrategyPattern.NonPatternVersion_MultipleFunctions;
+namespace Test.DesignPatternsCSharpNet6.StrategyPattern.NonPattern_MultipleFunctions;
 
 public class TestCalculator
 {

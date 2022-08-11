@@ -1,6 +1,6 @@
 ﻿using DesignPatternsCSharpNet6.Builder.Pattern;
 
-namespace Test.DesignPatternsCSharpNet6.BuilderPattern.PatternVersion;
+namespace Test.DesignPatternsCSharpNet6.Builder.Pattern;
 
 public class TestPatternReport
 {

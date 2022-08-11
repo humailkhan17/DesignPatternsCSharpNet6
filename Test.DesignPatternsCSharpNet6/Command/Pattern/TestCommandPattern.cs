@@ -1,6 +1,6 @@
 ﻿using DesignPatternsCSharpNet6.Command.Pattern;
 
-namespace Test.DesignPatternsCSharpNet6.CommandPattern.PatternVersion;
+namespace Test.DesignPatternsCSharpNet6.Command.Pattern;
 
 public class TestCommandPattern
 {

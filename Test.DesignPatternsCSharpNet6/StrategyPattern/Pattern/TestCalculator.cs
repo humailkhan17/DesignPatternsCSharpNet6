@@ -1,6 +1,6 @@
-﻿using DesignPatternsCSharpNet6.Strategy.NonPattern_SingleFunction;
+﻿using DesignPatternsCSharpNet6.Strategy.Pattern;
 
-namespace Test.DesignPatternsCSharpNet6.StrategyPattern.NonPatternVersion_SingleFunction;
+namespace Test.DesignPatternsCSharpNet6.StrategyPattern.Pattern;
 
 public class TestCalculator
 {
@@ -10,10 +10,9 @@ public class TestCalculator
     [Fact]
     public void Test_AverageByMean()
     {
-        Calculator calculator = new Calculator();
+        Calculator calculator = new Calculator(new AverageByMean());
 
-        var averageByMean = 
-            calculator.CalculateAverage(Calculator.AveragingStrategy.Mean, _values);
+        var averageByMean = calculator.CalculateAverage(_values);
 
         Assert.True(ResultsAreCloseEnough(8.3636363, averageByMean));
     }
@@ -21,10 +20,9 @@ public class TestCalculator
     [Fact]
     public void Test_AverageByMedian()
     {
-        Calculator calculator = new Calculator();
+        Calculator calculator = new Calculator(new AverageByMedian());
 
-        var averageByMedian = 
-            calculator.CalculateAverage(Calculator.AveragingStrategy.Median, _values);
+        var averageByMedian = calculator.CalculateAverage(_values);
 
         Assert.True(ResultsAreCloseEnough(8, averageByMedian));
     }
